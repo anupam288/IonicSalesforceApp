@@ -1,0 +1,13 @@
+<apex:page showHeader="false" applyBodyTag="false" applyHtmlTag="false" sidebar="false" standardStylesheets="false">
+<ion-view view-title="Friends">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-avatar" ng-repeat="friend in friends" type="item-text-wrap" href="#/tab/friend/{{friend.Id}}">
+        <img ng-src="{{friend.face}}"></img>
+        <h2>{{friend.Name}}</h2>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+</apex:page>

@@ -1,0 +1,20 @@
+<apex:page showHeader="false" applyBodyTag="false" applyHtmlTag="false" sidebar="false" standardStylesheets="false">
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-toggle">
+        Enable Friends
+        <label class="toggle">
+          <input type="checkbox" ng-model="settings.enableFriends"></input>
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+        </label>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
+
+</apex:page>
